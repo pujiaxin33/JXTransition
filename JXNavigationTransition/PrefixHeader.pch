@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  JXNavigationTransition
+//
+//  Created by jiaxin on 15/12/2.
+//  Copyright © 2015年 jiaxin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Masonry.h"
+#import "UIView+FrameChange.h"
+#import "UIView+anchorPoint.h"
+#import "JXInteractiveTransition.h"
+
+#define WindowSize [UIScreen mainScreen].bounds.size
+#define WeakSelf(self) __weak typeof(self) weakSelf = self
+
+#endif /* PrefixHeader_pch */
