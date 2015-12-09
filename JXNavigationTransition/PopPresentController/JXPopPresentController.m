@@ -35,7 +35,7 @@
     }];
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    [button setTitle:@"点我或者右滑present" forState:UIControlStateNormal];
+    [button setTitle:@"点我或者上滑present" forState:UIControlStateNormal];
     [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [button addTarget:self action:@selector(present) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];

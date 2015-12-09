@@ -45,7 +45,7 @@
     self.view.layer.borderColor = [UIColor cyanColor].CGColor;
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    [button setTitle:@"点我" forState:UIControlStateNormal];
+    [button setTitle:@"点我或者下滑" forState:UIControlStateNormal];
     [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [button addTarget:self action:@selector(dismiss) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
